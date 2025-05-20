@@ -1,0 +1,290 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+section {
+    padding-top: 10px;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+#gallery .row > * {
+    padding: 0;
+}
+
+#padding-img {
+    margin-right: 10px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ffff !important;
+}
+
+.nav-spacing .nav-item {
+    margin-right: 20px;
+}
+.nav-spacing .nav-item:last-child {
+    margin-right: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-image {
+    background-color: white;
+    background-image: url("img/projects/stupa2.png");
+    background-size: auto;
+    background-position: right center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.bg-image::before {
+    display: none;
+}
+
+.bottom-svg {
+    margin-bottom: -140px;
+}
+
+#chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chatbot-img {
+    width: 60px;
+    cursor: pointer;
+}
+
+#chatbot-box {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    z-index: 1000;
+}
+
+.d-none {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding-top: 2rem;
+    }
+
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding-top: 3rem;
+    }
+
+    .col-md-4 {
+        margin-bottom: 1rem;
+    }
+
+    .bg-image {
+        background-image: none !important;
+    }
+}
+
+#chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#chatbot-box {
+    margin-right: 40px;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.d-none {
+    display: none;
+}
+
+::selection {
+    color: #fff;
+    background: #2b7088;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+}
+
+.wrapper {
+    width: 370px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-top: 0px;
+}
+.wrapper .title {
+    background: #2b7088;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #2b7088;
+    border-radius: 5px 5px 0 0;
+}
+.wrapper .form {
+    padding: 20px 15px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.wrapper .form .inbox {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.wrapper .form .user-inbox {
+    justify-content: flex-end;
+    margin: 13px 0;
+}
+.wrapper .form .inbox .icon {
+    height: 40px;
+    width: 40px;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    background: #82dc90;
+}
+.wrapper .form .inbox .msg-header {
+    max-width: 75%;
+    margin-left: 10px;
+}
+.form .inbox .msg-header p {
+    color: #333;
+    background: #82dc90;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 14px;
+    word-break: break-all;
+}
+.form .user-inbox .msg-header p {
+    color: #333;
+    background: #efefef;
+}
+.wrapper .typing-field {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efefef;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 5px 5px;
+}
+.wrapper .typing-field .input-data {
+    height: 40px;
+    width: 335px;
+    position: relative;
+}
+.wrapper .typing-field .input-data input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0 80px 0 15px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+.typing-field .input-data input:focus {
+    border-color: rgba(0, 123, 255, 0.8);
+}
+.input-data input::placeholder {
+    color: #999999;
+    transition: all 0.3s ease;
+}
+.input-data input:focus::placeholder {
+    color: #bfbfbf;
+}
+.wrapper .typing-field .input-data button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    height: 30px;
+    width: 65px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    background: #387c93;
+    border: 1px solid #387c93;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+.wrapper .typing-field .input-data input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
+}
+.typing-field .input-data button:hover {
+    background: #387c93;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.form-box {
+    padding: 20px;
+}
+.py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.text-center {
+    text-align: center;
+}
