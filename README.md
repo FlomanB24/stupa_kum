@@ -1,2 +1,2 @@
 # stupa_kum
-Stupa adalah project penelitian tesis yang mengambil program Stupa (Studi Pastoral Akhir Pekan) di Keuskupan Maumere sebagai  model transformasi pembelajaran konvensional menjadi pembelajaran digital dalam bentuk Leaning Management System
+Stupa adalah proyek penelitian tesis yang mengembangkan program Studi Pastoral Akhir Pekan (STUPA) di Keuskupan Maumere sebagai model transformasi pembelajaran dari format konvensional menuju pembelajaran digital berbasis Learning Management System (LMS).
